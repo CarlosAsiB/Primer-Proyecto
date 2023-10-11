@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,12 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Mi Perfil Ferropolis</title>
+    <link rel="icon" type="image/x-icon" href="../img/Screenshot 2023-09-05 072115.png">
 </head>
 
 <body>
     <header>
-        <img src="../img/Screenshot 2023-09-05 072115.png" alt="Ferropolis" class="Logotipo">
+        <a href="../index.html"><img src="../img/Screenshot 2023-09-05 072115.png" alt="Inicio" class="Logotipo"></a>
 
         <nav>
             <ul>
@@ -25,20 +26,33 @@
         </nav>
     </header>
     <main>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Asegurate de no equivocarte.</div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Ingresar</button>
+
+        <section class="container-fluid">
+        <!--row justify-content-center is used for centering the login form-->
+          <section class="row justify-content-center">
+          <!--Making the form responsive-->
+            <section class="col-12 col-sm-6 col-md-4">
+              <form class="form-container">
+              <!--Binding the label and input together-->
+              <div class="form-group">
+                <h4 class="text-center font-weight-bold"> Ingresar </h4>
+                <label for="Inputuser1">Nombre de usuario</label>
+                 <input type="email" class="form-control" id="Inputuser1" aria-describeby="usernameHelp" placeholder="Ingresar nombre de usuario">
+              </div>
+              <!--Binding the label and input together-->
+              <div class="form-group">
+                <label for="InputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="InputPassword1" placeholder="Contraseña">
+              </div>
+              <button type="Sign in" class="btn btn-warning btn-block">Ingresar</button>
+              <div class="form-footer">
+                <p> No tienes una cuenta? <a href="#">Registrate</a></p>
+              </div>
+              </form>
+            </section>
+          </section>
+        </section>
+          </form>
     </main>
     <footer>
         <a href="https://es-la.facebook.com" target="_blank"><img src="../img/fb-icon.png" alt="Facebook"></a>

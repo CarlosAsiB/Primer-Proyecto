@@ -57,7 +57,7 @@ header nav ul li a {
 
 
 
-}
+
 
 
 
@@ -97,7 +97,7 @@ main {
 .hero a {
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: #000000;
     padding: 10px;
     font-size: 45px;
 }
@@ -105,10 +105,7 @@ main {
 .mail {
     text-decoration: none;
 }
-
-
-
-
+ 
 
 
 /*!----------------------Footer-----------------------*/
@@ -167,7 +164,7 @@ footer a img {
 
 
 
-    @media screen and (max-width:553px) {
+@media screen and (max-width:553px) { 
 
         header {
             position: static;
@@ -202,5 +199,5 @@ footer a img {
             align-items: center;
             flex-direction: column;
 
-        }
+        }}
     }
