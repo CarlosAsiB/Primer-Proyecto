@@ -167,14 +167,9 @@ footer a img {
 @media screen and (max-width:553px) { 
 
         header {
-            position: static;
-
-
-        }
-
+            position: static;  }
         html {
-            background-color: black;
-        }
+            background-color: black; }
 
 
         .hero h2 {
@@ -200,4 +195,4 @@ footer a img {
             flex-direction: column;
 
         }}
-    }
+}
