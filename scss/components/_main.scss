@@ -41,8 +41,8 @@ main {
             }
             a{
                 text-decoration: none;
-                 color: white;
-                 background-color: $color-principal;
+                 color:$color-principal;
+                 background-color:white;
                 padding: 10px;
                 font-size: 45px;
                 @include tablet{
@@ -53,7 +53,14 @@ main {
                 }
 
             }
-         
-
+         .correo{
+            color: black;
+            background-color: white;
+            font-size: medium;
+         }
+         .boton{
+            background-color:$color-secundario;
+            color:$color-principal;
+         }
             }
         

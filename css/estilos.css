@@ -63,8 +63,8 @@ main {
           margin: 5px; } }
   main a {
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 10px;
     font-size: 45px; }
     @media screen and (max-width: 880px) {
@@ -73,6 +73,13 @@ main {
     @media screen and (max-width: 553px) {
       main a {
         font-size: 14px; } }
+  main .correo {
+    color: black;
+    background-color: white;
+    font-size: medium; }
+  main .boton {
+    background-color: #3c105f;
+    color: black; }
 
 footer {
   background-color: black;
