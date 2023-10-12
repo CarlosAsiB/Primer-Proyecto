@@ -1,0 +1,59 @@
+
+main {
+    display: flex;
+    
+        .hero{
+            color: white;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.362), rgba(0, 0, 0, 0.336)), url("../img/herramientas-norton.jpg");
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+            h2{
+                font-size: 60px;
+                @include tablet{
+                    font-size: 40px;
+                }
+                @include mobile{
+                    font-size: 20px;
+                }
+            }
+            p{
+                font-size: 35px;
+                 margin: 20px;
+                 @include tablet{
+                    font-size: 17px;
+                    margin: 10px;
+                 }
+                 @include mobile{
+                    font-size: 12px;
+                    margin: 5px;
+                 }
+                 }
+
+            }
+            a{
+                text-decoration: none;
+                 color: white;
+                 background-color: $color-principal;
+                padding: 10px;
+                font-size: 45px;
+                @include tablet{
+                    font-size: 25px;
+                }
+                @include mobile{
+                    font-size:14px;
+                }
+
+            }
+         
+
+            }
+        

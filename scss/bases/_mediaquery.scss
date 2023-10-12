@@ -1,0 +1,50 @@
+@media screen and (max-width:1090px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:658px) {
+html{
+    background-color: black;
+}
+header{
+    background-color: black;
+    position:static;
+    nav{
+        ul{
+            font-size: 15px;
+        }
+    }
+}
+}
+
+@media screen and (max-width:553px) { 
+       
+        html {
+            background-color: black; }
+
+
+
+        header {
+            position: static;  
+            nav{
+                ul{
+                    display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+
+                }
+            }
+        }
+    }
+
+
+
+

@@ -1,0 +1,21 @@
+$color-principal: rgb(0, 0, 0);
+$color-secundario: rgb(60, 16, 95);
+$color-terciario: rgb(190, 163, 7);
+
+
+
+// ME COSTO MUCHISIMO HACER QUE ESTO FUNCIONE ESTOY SUPER FELIZ
+@mixin tablet {
+    @media screen and (max-width: 880px){
+        @content
+        
+    }
+}
+@mixin mobile {
+    @media screen and (max-width: 553px){
+        @content
+        
+    }
+}
+
+

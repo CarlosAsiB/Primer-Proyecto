@@ -1,0 +1,35 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color: $color-principal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+        }
+    
+    nav{
+        ul{list-style: none;
+            font-size: 22px;
+            display: flex;
+
+            li{
+                a{
+                    margin: 5px 10px 5px 10px;
+                    text-decoration: none;
+                    color:$color-terciario;
+                    padding: 20px;
+                
+                }
+            }
+        }
+    }
+
+.Logotipo{
+
+    width: 20%;
+background-color: $color-principal;
+height: 12%;
+margin: 10px;
+}
