@@ -41,8 +41,8 @@ main {
             }
             a{
                 text-decoration: none;
-                 color:$color-principal;
-                 background-color:white;
+                 color:white;
+                 background-color:$color-principal;
                 padding: 10px;
                 font-size: 45px;
                 @include tablet{
