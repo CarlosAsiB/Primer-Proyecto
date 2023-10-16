@@ -7,13 +7,13 @@
      <!-- <link rel="stylesheet" href="../css/style.css"> -->
      <link rel="stylesheet" href="../css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ferreteria confiable y de calidad para los uruguayos desde 1992 aportando servicio calido y familiar.">
+    <meta name="description" content="Contactarnos, enviar queja o consulta.">
     <meta name="keywords" content="Ferreteria, Caños, Metal, Madera, Plasticos, Tubos, Lavados, Baño, Carton">
     <meta property="og:type" content="e-commerce">
     <meta property="og:title" content="Ferropolis">
     <meta property="og:url" content="https...">
     <meta property="og:image" content="https://i.pinimg.com/564x/2d/4a/8a/2d4a8a02d8d2803fd2705d8407ca1fed.jpg">
-    <meta property="og:description" content="Ferreteria confiable y de calidad para los uruguayos desde 1992 aportando servicio calido y familiar.">
+    <meta property="og:description" content="Contactarnos, enviar queja o consulta.">
     <title>Contacto Ferropolis</title>
     <link rel="icon" type="image/x-icon" href="../img/Screenshot 2023-09-05 072115.png">
 </head>
@@ -39,21 +39,27 @@
 </head>
 <main>
     <section>
-        <div>
-            <h2>Genero</h2>
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" id="masculino">
-            <label for="femenino">Femenino</label>
-            <input type="radio" name="genero" id="femenino">
-            <label for="otro">Otro</label>
-            <input type="radio" name="genero" id="otro">
-        </div>
-        <div>
-            <select name="Edad" id="Edad">Edad
-                <option value="Mayor">Mayor</option>
-                <option value="Menor">Menor</option>
-            </select>
-        </div>
+        <div class="input-group">
+            <span class="input-group-text">Nombre y Apellido</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <input type="text" aria-label="Last name" class="form-control">
+          </div>
+          <div class="input-group">
+            <span class="input-group-text">Correo</span>
+            <input type="text" aria-label="First name" class="form-control">
+          </div>
+          <div class="input-group">
+            <span class="input-group-text">Numero</span>
+            <input type="text" aria-label="First name" class="form-control">
+          </div>
+          <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Subir archivo</label>
+          </div>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Duda/Queja" aria-label="Recipient's username with two button addons">
+            <button class="btn btn-outline-secondary btn-warning" type="button">Enviar</button>
+          </div>
     </section>
 </main>
 <footer>

@@ -7,15 +7,16 @@
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
     <link rel="stylesheet" href="../css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ferreteria confiable y de calidad para los uruguayos desde 1992 aportando servicio calido y familiar.">
+    <meta name="description" content="Carrito de compras.">
     <meta name="keywords" content="Ferreteria, Caños, Metal, Madera, Plasticos, Tubos, Lavados, Baño, Carton">
     <meta property="og:type" content="e-commerce">
     <meta property="og:title" content="Ferropolis">
     <meta property="og:url" content="https...">
     <meta property="og:image" content="https://i.pinimg.com/564x/2d/4a/8a/2d4a8a02d8d2803fd2705d8407ca1fed.jpg">
-    <meta property="og:description" content="Ferreteria confiable y de calidad para los uruguayos desde 1992 aportando servicio calido y familiar.">
+    <meta property="og:description" content="Carrito de compras.">
     <title>Carrito Ferropolis</title>
     <link rel="icon" type="image/x-icon" href="../img/Screenshot 2023-09-05 072115.png">
+    <script src="https://kit.fontawesome.com/00e124da5c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,8 +34,84 @@
         </nav>
     </header>
     <main>
-        <div class="alert alert-danger" role="alert">
-            Esta pagina aun no se como hacerla!
+        <div class="row">
+            <div class="col-75">
+              <div class="container">
+                <form action="/action_page.php">
+          
+                  <div class="row">
+                    <div class="col-50">
+                      <h3>Direccion de cobro</h3>
+                      <label for="fname"><i class="fa fa-user"></i>Nombre completo</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Nombre Apellido">
+                      <label for="email"><i class="fa fa-envelope"></i>Correo</label>
+                      <input type="text" id="email" name="email" placeholder="correo@mail.com">
+                      <label for="adr"><i class="fa fa-address-card-o"></i>Direccion</label>
+                      <input type="text" id="adr" name="address" placeholder="Calle, numero">
+                      <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+                      <input type="text" id="city" name="city" placeholder="Ciudad">
+          
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="state">Barrio</label>
+                          <input type="text" id="state" name="state" placeholder="Barrio">
+                        </div>
+                        <div class="col-50">
+                          <label for="zip">Codigo Postal</label>
+                          <input type="text" id="zip" name="zip" placeholder="Codigo postal">
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-50">
+                      <h3>Pago</h3>
+                      <label for="fname">Tarjetas aceptadas</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                      </div>
+                      <label for="cname">Nombre del dueño de la tarjeta.</label>
+                      <input type="text" id="cname" name="cardname" placeholder="Nombre como indica la tarjeta">
+                      <label for="ccnum">Numero de la tarjeta</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="Numero de tarjeta">
+                      <label for="expmonth">Fecha de expiracion de la tarjeta</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="Mes/Año">
+          
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="cvv">Clave de seguridad</label>
+                          <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Enviar a la misma direccion de cobro?.
+                  </label>
+                  <button type="button" class="btn btn-warning">Continuar con el pago</button>
+                </form>
+              </div>
+            </div>
+          
+            <div class="col-25">
+              <div class="container">
+                <h4>Carrito
+                  <span class="price" style="color:black">
+                    <i class="fa fa-shopping-cart"></i>
+                    <b>3</b>
+                  </span>
+                </h4>
+                <p><a href="#">Producto 1</a> <span class="price">$15 USD</span></p>
+                <p><a href="#">Producto 2</a> <span class="price">$5 USD</span></p>
+                <p><a href="#">Producto 3</a> <span class="price">$10 USD</span></p>
+                <hr>
+                <p>Precio Total <span class="price" style="color:black"><b>$30</b></span></p>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
         <a href="https://es-la.facebook.com" target="_blank"><img src="../img/fb-icon.png" alt="Facebook"></a>
