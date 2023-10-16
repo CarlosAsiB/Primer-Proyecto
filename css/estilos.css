@@ -73,6 +73,9 @@ main {
     @media screen and (max-width: 553px) {
       main a {
         font-size: 14px; } }
+  main div div div p a {
+    background-color: rgba(211, 211, 211, 0.13);
+    color: black; }
 
 .boton {
   background-color: #3c105f;
@@ -174,12 +177,6 @@ footer {
 @media screen and (max-width: 1090px) {
   header {
     flex-direction: column; } }
-
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse; }
-  .col-25 {
-    margin-bottom: 20px; } }
 
 @media screen and (max-width: 658px) {
   html {
